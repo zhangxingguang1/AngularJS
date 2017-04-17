@@ -1,0 +1,17 @@
+1，在controller.js里使用$http.get(baseurl).success 连接 deployd，在浏览器创建相应表，有user表，products表，navigtion表
+
+2，实现从服务器读取数据或控制器读取数据 通过$http.get(baseurl).success、控制器、ng-repeat和{{}}实现，例如我的粉丝等；
+
+3，实现文本域双向绑定，通过使用ng-model实现；
+
+4，实现用户的头像，昵称，发表的文本，粉丝等信息双向数据绑定，通过ng-model和$resource服务实现；
+
+5，导航条效果：使用ng-repeat循环输出deploy里的数据；
+
+6，粉丝排序，根据粉丝ID+实现排序；
+
+7，评论排序，根据粉丝id-实现；
+
+8，实现首页各模块使用视图和路由单页面应用。ng-view对应文件new，brief，news放到view文件夹下，最新动态，简介，消息3个不同页面间可以随意切换
+
+9，实现支持她，粉丝数量增长功能。
